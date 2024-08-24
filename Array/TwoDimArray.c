@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main(){
+    // define the variable
+    int i=0;
+    int j=0;
+
+    // declaration of an array
+    int arr[2][2];
+
+    for(i=0;i<2;i++){
+        for(j=0;j<2;j++){
+            printf("%s %d %s %d %s","Enter the data at",i,"",j,"index is:");
+            scanf("%d",&arr[i][j]);
+        }
+    }
+
+    printf("%s %s","The element present in an array is:","\n");
+    for(i=0;i<2;i++){
+        for(j=0;j<2;j++){
+            printf("%d %s",arr[i][j],"");
+        }
+        printf("%s","\n");
+    }
+    return 0;
+}
