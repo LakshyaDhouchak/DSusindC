@@ -25,7 +25,7 @@ int main(){
         }
 
         // for loop to print an array
-        printf("%s %s","The element present in an array is:","\n");
+        printf("%s","The element present in an array is:\n");
         for(i=0;i<size;i++){
             printf("%d %s",arr[i],"");
         }
