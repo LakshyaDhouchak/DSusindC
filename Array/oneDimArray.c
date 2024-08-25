@@ -20,7 +20,7 @@ int main(){
         int arr[size];
 
         for(i=0;i<size;i++){
-            printf("%s %d %s","Enter the data at", i,"index is:");
+            printf("%s %d %s","Enter the data at",i,"index is:");
             scanf("%d",&arr[i]);
         }
 
