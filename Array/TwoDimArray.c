@@ -1,6 +1,8 @@
 #include<stdio.h>
 
 int main(){
+    // User detail
+    printf("%s%s","NAME :Lakshya\n","REGISTRATION_No :10323210035\n");
     // define the variable
     int i=0;
     int j=0;
