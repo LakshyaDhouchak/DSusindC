@@ -1,31 +1,30 @@
 #include<stdio.h>
-
 int main(){
     // define the properties
     int rows;
-    int sum =0;
+    int columns;
     int i;
     int j;
-
+    int sum =0;
     printf("Enter the number of rows:\n");
     scanf("%d",&rows);
+    printf("Enter the number of columns:\n");
+    scanf("%d",&columns);
 
-    int arr[rows][rows];
+    int arr[rows][columns];
 
     for(i=0;i<rows;i++){
-        for(j =0;j<=i;j++){
+        for(j =0;j<columns;j++){
             printf("Enter the data:");
             scanf("%d",&arr[i][j]);
         }
     }
     for(i=0;i<rows;i++){
-        for(j =0;j<=i;j++){
-            printf("%d ",arr[i][j]);
-            sum = sum+arr[i][j];
+        for(j =0;j<columns;j++){
+            sum =sum+arr[i][j];
         }
-        printf("%s","\n");
     }
-    printf("The sum of left side triangle is:%d",sum);
 
-    return 0;
+    printf("%d",sum);
+
 }
