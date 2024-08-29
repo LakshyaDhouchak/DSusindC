@@ -40,6 +40,15 @@ int main(){
             }
             printf("%s","\n");
         }
+
+        printf("The Transpose of an array is:\n");
+        for(i=0;i<rows;i++){
+            for(j=0;j<columns;j++){
+                printf("%d %s",arr[j][i],"");
+            }
+            printf("%s","\n");
+        }
+
     }    
     return 0;
 }
