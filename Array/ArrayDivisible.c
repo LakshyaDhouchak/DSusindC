@@ -1,6 +1,9 @@
 #include<stdio.h>
 
 int main(){
+    // User detail
+    printf("%s%s","NAME :Lakshya\n","REGISTRATION_No :10323210035\n");
+
     int size;
     int i;
     int sum=0;
